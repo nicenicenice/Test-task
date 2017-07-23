@@ -1,0 +1,16 @@
+.notice {
+	font-size: 50px;
+	color: red;
+	text-align: center;
+}
+.top-info {
+	height: 500px;
+	background-color: white;
+}
+.created-par {
+	background: green;
+	color: white;
+}
+#inderface-factory a {
+	display: block;
+}
