@@ -8,7 +8,7 @@
 	<script type="text/javascript" src="interface_api.js"></script>
 	<script type="text/javascript" src="app.js"></script>
   </head>
-  <body class="container" ng-app="CombineModule">
+  <body class="container">
   	<div id="top" ng-app="topImplementation" ng-controller="ProcessMonitorController as procMonitor">
 	  	<div ng-repeat="notice in procMonitor.notices">
 	    	<p class="notice" ng-show="notice">{{ notice }}</p>
